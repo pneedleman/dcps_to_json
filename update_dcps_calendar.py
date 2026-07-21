@@ -9,7 +9,11 @@ from pathlib import Path
 
 import requests
 
-DCPS_ICS_URL = "https://calendar.google.com/calendar/ical/dcpstech%40dc.gov/public/basic.ics"
+# Priority order: first source wins on duplicate dates
+DCPS_ICS_SOURCES = [
+    ("DCPS Official", "https://calendar.google.com/calendar/ical/dcpstech%40dc.gov/public/basic.ics"),
+    ("DCSchools 2026-27", "https://dcschools.com/dcps-calendar-2026-27.ics"),
+]
 OUTPUT_PATH = Path("data/dcps_calendar.json")
 
 # Keywords in SUMMARY that indicate a day off for students
@@ -84,22 +88,39 @@ def parse_ics(ics_text: str) -> list[dict]:
 def main() -> int:
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
-    try:
-        response = requests.get(DCPS_ICS_URL, timeout=60)
-        response.raise_for_status()
-    except requests.RequestException as e:
-        print(f"Failed to fetch DCPS calendar: {e}", file=sys.stderr)
-        return 1
+    # Fetch each source and merge, with earlier sources taking priority on duplicate dates
+    merged_days = {}
+    source_status = {}
+    for name, url in DCPS_ICS_SOURCES:
+        try:
+            response = requests.get(url, timeout=60)
+            response.raise_for_status()
+            days = parse_ics(response.text)
+            for day in days:
+                # Keep the first (highest-priority) name for each date
+                if day["date"] not in merged_days:
+                    merged_days[day["date"]] = day["name"]
+            source_status[name] = {"url": url, "count": len(days)}
+            print(f"[Source] {name}: fetched {len(days)} day(s) off")
+        except requests.RequestException as e:
+            print(f"[Source] {name}: failed to fetch {e}", file=sys.stderr)
+            source_status[name] = {"url": url, "error": str(e)}
 
-    days_off = parse_ics(response.text)
+    if not merged_days:
+        print("No calendar sources returned data.", file=sys.stderr)
+        return 1
 
     # Keep only days off in the current and next calendar year
     current_year = datetime.now(timezone.utc).year
     keep_years = {current_year, current_year + 1}
-    days_off = [d for d in days_off if date.fromisoformat(d["date"]).year in keep_years]
+    days_off = [
+        {"date": d, "name": n}
+        for d, n in sorted(merged_days.items())
+        if date.fromisoformat(d).year in keep_years
+    ]
 
     calendar_data = {
-        "source_url": DCPS_ICS_URL,
+        "sources": source_status,
         "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "count": len(days_off),
         "days_off": days_off,
