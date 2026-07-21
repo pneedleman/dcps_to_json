@@ -93,6 +93,11 @@ def main() -> int:
 
     days_off = parse_ics(response.text)
 
+    # Keep only days off in the current and next calendar year
+    current_year = datetime.now(timezone.utc).year
+    keep_years = {current_year, current_year + 1}
+    days_off = [d for d in days_off if date.fromisoformat(d["date"]).year in keep_years]
+
     calendar_data = {
         "source_url": DCPS_ICS_URL,
         "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
