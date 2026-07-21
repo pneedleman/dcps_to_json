@@ -1,6 +1,6 @@
 {
   "source_url": "https://calendar.google.com/calendar/ical/dcpstech%40dc.gov/public/basic.ics",
-  "last_updated": "2026-07-21T20:46:48.363851Z",
+  "last_updated": "2026-07-21T20:52:55.103040Z",
   "count": 131,
   "days_off": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "date": "2022-11-07",
-      "name": "End of Term 1 Records Day / Professional Development Day (No school"
+      "name": "End of Term 1 Records Day / Professional Development Day (No school for students)"
     },
     {
       "date": "2022-11-08",
@@ -45,7 +45,7 @@
     },
     {
       "date": "2022-12-26",
-      "name": "Christmas Observed\\; Hanukkah Ends\\; Kwanzaa (DCPS closed)"
+      "name": "Christmas Observed; Hanukkah Ends; Kwanzaa (DCPS closed)"
     },
     {
       "date": "2022-12-27",
@@ -69,11 +69,11 @@
     },
     {
       "date": "2023-01-16",
-      "name": "Martin Luther King\\, Jr. Day (DCPS closed)"
+      "name": "Martin Luther King, Jr. Day (DCPS closed)"
     },
     {
       "date": "2023-01-25",
-      "name": "End of Term 2 Records Day / Professional Development Day (No school"
+      "name": "End of Term 2 Records Day / Professional Development Day (No school for students)"
     },
     {
       "date": "2023-02-20",
@@ -105,7 +105,7 @@
     },
     {
       "date": "2023-04-10",
-      "name": "End of Term 3 Records Day / Professional Development Day (No school"
+      "name": "End of Term 3 Records Day / Professional Development Day (No school for students)"
     },
     {
       "date": "2023-04-17",
@@ -137,11 +137,11 @@
     },
     {
       "date": "2023-09-04",
-      "name": "Labor Day: No school for students\\, teachers\\, and staff"
+      "name": "Labor Day: No school for students, teachers, and staff"
     },
     {
       "date": "2023-10-09",
-      "name": "Indigenous Peoples' Day: No school for students\\, teachers\\, and st"
+      "name": "Indigenous Peoples' Day: No school for students, teachers, and staff"
     },
     {
       "date": "2023-10-19",
@@ -153,11 +153,11 @@
     },
     {
       "date": "2023-11-03",
-      "name": "Term 1 Ends: Half-day PD for staff"
+      "name": "PD Day for Staff: No school for students"
     },
     {
       "date": "2023-11-10",
-      "name": "Veterans Day: No school for students\\, teachers\\, and staff"
+      "name": "Veterans Day: No school for students, teachers, and staff"
     },
     {
       "date": "2023-11-22",
@@ -165,7 +165,7 @@
     },
     {
       "date": "2023-11-23",
-      "name": "Thanksgiving Day: No school for students\\, teachers\\, and staff"
+      "name": "Thanksgiving Day: No school for students, teachers, and staff"
     },
     {
       "date": "2023-11-24",
@@ -177,7 +177,7 @@
     },
     {
       "date": "2023-12-25",
-      "name": "Christmas Day: No school for students\\, teachers\\, and staff"
+      "name": "Christmas Day: No school for students, teachers, and staff"
     },
     {
       "date": "2023-12-26",
@@ -197,7 +197,7 @@
     },
     {
       "date": "2024-01-01",
-      "name": "New Year's Day: No school for students\\, teachers\\, and staff"
+      "name": "New Year's Day: No school for students, teachers, and staff"
     },
     {
       "date": "2024-01-02",
@@ -205,7 +205,7 @@
     },
     {
       "date": "2024-01-15",
-      "name": "Martin Luther King\\, Jr. Day: No school for students\\, teachers\\, a"
+      "name": "Martin Luther King, Jr. Day: No school for students, teachers, and staff"
     },
     {
       "date": "2024-01-26",
@@ -217,7 +217,7 @@
     },
     {
       "date": "2024-02-19",
-      "name": "Presidents Day: No school for students\\, teachers\\, and staff"
+      "name": "Presidents Day: No school for students, teachers, and staff"
     },
     {
       "date": "2024-03-14",
@@ -229,7 +229,7 @@
     },
     {
       "date": "2024-04-05",
-      "name": "Term 3 Ends: Half-day PD for staff"
+      "name": "Records Day for Staff: No school for students"
     },
     {
       "date": "2024-04-15",
@@ -253,7 +253,7 @@
     },
     {
       "date": "2024-05-27",
-      "name": "Memorial Day: No school for students\\, teachers\\, and staff"
+      "name": "Memorial Day: No school for students, teachers, and staff"
     },
     {
       "date": "2024-06-18",
@@ -261,7 +261,7 @@
     },
     {
       "date": "2024-09-02",
-      "name": "Labor Day: No school for students\\, teachers\\, and staff"
+      "name": "Labor Day: No school for students, teachers, and staff"
     },
     {
       "date": "2024-10-10",
@@ -273,7 +273,7 @@
     },
     {
       "date": "2024-10-14",
-      "name": "Indigenous Peoples\u2019 Day: No school for students\\, teachers\\, and st"
+      "name": "Indigenous Peoples\u2019 Day: No school for students, teachers, and staff"
     },
     {
       "date": "2024-11-04",
@@ -285,7 +285,7 @@
     },
     {
       "date": "2024-11-11",
-      "name": "Veterans Day: No school for students\\, teachers\\, and staff"
+      "name": "Veterans Day: No school for students, teachers, and staff"
     },
     {
       "date": "2024-11-27",
@@ -293,7 +293,7 @@
     },
     {
       "date": "2024-11-28",
-      "name": "Thanksgiving: No school for students\\, teachers\\, and staff"
+      "name": "Thanksgiving: No school for students, teachers, and staff"
     },
     {
       "date": "2024-11-29",
@@ -309,7 +309,7 @@
     },
     {
       "date": "2024-12-25",
-      "name": "Christmas Day: No school for students\\, teachers\\, and staff"
+      "name": "Christmas Day: No school for students, teachers, and staff"
     },
     {
       "date": "2024-12-26",
@@ -329,7 +329,7 @@
     },
     {
       "date": "2025-01-01",
-      "name": "New Year's Day: No school for students\\, teachers\\, and staff"
+      "name": "New Year's Day: No school for students, teachers, and staff"
     },
     {
       "date": "2025-01-17",
@@ -337,11 +337,11 @@
     },
     {
       "date": "2025-01-20",
-      "name": "Martin Luther King\\, Jr. Day: No school for students\\, teachers\\, a"
+      "name": "Martin Luther King, Jr. Day: No school for students, teachers, and staff"
     },
     {
       "date": "2025-01-27",
-      "name": "PD/Records Day for Staff: No school for students"
+      "name": "Term 2 Ends: Half-day PD for staff"
     },
     {
       "date": "2025-02-14",
@@ -349,7 +349,7 @@
     },
     {
       "date": "2025-02-17",
-      "name": "Presidents Day: No school for students\\, teachers\\, and staff"
+      "name": "Presidents Day: No school for students, teachers, and staff"
     },
     {
       "date": "2025-03-13",
@@ -373,7 +373,7 @@
     },
     {
       "date": "2025-04-16",
-      "name": "DC Emancipation Day: No school for students\\, teachers\\, and staff"
+      "name": "DC Emancipation Day: No school for students, teachers, and staff"
     },
     {
       "date": "2025-04-17",
@@ -385,11 +385,11 @@
     },
     {
       "date": "2025-05-26",
-      "name": "Memorial Day: No school for students\\, teachers\\, and staff"
+      "name": "Memorial Day: No school for students, teachers, and staff"
     },
     {
       "date": "2025-06-19",
-      "name": "Juneteenth: No school for students\\, teachers\\, and staff"
+      "name": "Juneteenth: No school for students, teachers, and staff"
     },
     {
       "date": "2025-06-20",
@@ -397,11 +397,11 @@
     },
     {
       "date": "2025-07-04",
-      "name": "Independence Day: No school for students\\, teachers\\, and staff"
+      "name": "Independence Day: No school for students, teachers, and staff"
     },
     {
       "date": "2025-09-01",
-      "name": "Labor Day: No school for students\\, teachers\\, and staff"
+      "name": "Labor Day: No school for students, teachers, and staff"
     },
     {
       "date": "2025-10-09",
@@ -413,7 +413,7 @@
     },
     {
       "date": "2025-10-13",
-      "name": "Indigenous Peoples\u2019 Day: No school for students\\, teachers\\, and st"
+      "name": "Indigenous Peoples\u2019 Day: No school for students, teachers, and staff"
     },
     {
       "date": "2025-11-03",
@@ -421,7 +421,7 @@
     },
     {
       "date": "2025-11-11",
-      "name": "Veterans Day: No school for students\\, teachers\\, and staff"
+      "name": "Veterans Day: No school for students, teachers, and staff"
     },
     {
       "date": "2025-11-26",
@@ -429,7 +429,7 @@
     },
     {
       "date": "2025-11-27",
-      "name": "Thanksgiving: No school for students\\, teachers\\, and staff"
+      "name": "Thanksgiving: No school for students, teachers, and staff"
     },
     {
       "date": "2025-11-28",
@@ -465,7 +465,7 @@
     },
     {
       "date": "2026-01-01",
-      "name": "New Year\u2019s Day: No school for students\\, teachers\\, and staff"
+      "name": "New Year\u2019s Day: No school for students, teachers, and staff"
     },
     {
       "date": "2026-01-02",
@@ -473,7 +473,7 @@
     },
     {
       "date": "2026-01-19",
-      "name": "Martin Luther King\\, Jr. Day: No school for students\\, teachers\\, a"
+      "name": "Martin Luther King, Jr. Day: No school for students, teachers, and staff"
     },
     {
       "date": "2026-01-26",
@@ -485,7 +485,7 @@
     },
     {
       "date": "2026-02-16",
-      "name": "Presidents Day: No school for students\\, teachers\\, and staff"
+      "name": "Presidents Day: No school for students, teachers, and staff"
     },
     {
       "date": "2026-03-13",
@@ -517,7 +517,7 @@
     },
     {
       "date": "2026-05-25",
-      "name": "Memorial Day: No school for students\\, teachers\\, and staff"
+      "name": "Memorial Day: No school for students, teachers, and staff"
     },
     {
       "date": "2026-06-16",
