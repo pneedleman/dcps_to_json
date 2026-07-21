@@ -4,7 +4,7 @@
 import json
 import re
 import sys
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -95,7 +95,7 @@ def main() -> int:
 
     calendar_data = {
         "source_url": DCPS_ICS_URL,
-        "last_updated": datetime.now(datetime.timezone.utc).isoformat().replace("+00:00", "Z"),
+        "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
         "count": len(days_off),
         "days_off": days_off,
     }
