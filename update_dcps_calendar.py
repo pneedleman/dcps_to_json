@@ -17,7 +17,8 @@ DCPS_ICS_SOURCES = [
 OUTPUT_PATH = Path("data/dcps_calendar.json")
 
 # Keywords in SUMMARY that indicate a day off for students
-DAY_OFF_KEYWORDS = ["No school", "Break", "Holiday", "closed", "Teacher", "PD"]
+# Matching is case-insensitive so "No School", "Closed", "Teacher", etc. all match
+DAY_OFF_KEYWORDS = ["no school", "break", "holiday", "closed", "teacher", "pd", "no students"]
 
 
 def unescape_ics(value: str) -> str:
@@ -47,8 +48,9 @@ def parse_ics(ics_text: str) -> list[dict]:
             continue
 
         summary = unescape_ics(summary_match.group(1).strip())
+        summary_lower = summary.lower()
 
-        if not any(keyword in summary for keyword in DAY_OFF_KEYWORDS):
+        if not any(keyword in summary_lower for keyword in DAY_OFF_KEYWORDS):
             continue
 
         start = date(
