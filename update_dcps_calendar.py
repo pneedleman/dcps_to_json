@@ -16,8 +16,21 @@ OUTPUT_PATH = Path("data/dcps_calendar.json")
 DAY_OFF_KEYWORDS = ["No school", "Break", "Holiday", "closed", "Teacher", "PD"]
 
 
+def unescape_ics(value: str) -> str:
+    """Unescape iCalendar text escape sequences: \\, \\;, \\,."""
+    placeholder = "\x00"
+    value = value.replace("\\\\", placeholder)  # escaped backslash
+    value = value.replace("\\;", ";")
+    value = value.replace("\\,", ",")
+    value = value.replace("\\n", "\n")
+    value = value.replace(placeholder, "\\")
+    return value
+
+
 def parse_ics(ics_text: str) -> list[dict]:
     """Parse iCalendar text and return list of day-off entries."""
+    # Unfold continuation lines (CRLF/LF followed by space/tab continues previous line)
+    ics_text = re.sub(r"\r?\n[ \t]", "", ics_text)
     events = re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", ics_text, re.DOTALL)
     days_off = []
 
@@ -29,7 +42,7 @@ def parse_ics(ics_text: str) -> list[dict]:
         if not summary_match or not start_match:
             continue
 
-        summary = summary_match.group(1).strip()
+        summary = unescape_ics(summary_match.group(1).strip())
 
         if not any(keyword in summary for keyword in DAY_OFF_KEYWORDS):
             continue
@@ -82,7 +95,7 @@ def main() -> int:
 
     calendar_data = {
         "source_url": DCPS_ICS_URL,
-        "last_updated": datetime.utcnow().isoformat() + "Z",
+        "last_updated": datetime.now(datetime.timezone.utc).isoformat().replace("+00:00", "Z"),
         "count": len(days_off),
         "days_off": days_off,
     }
