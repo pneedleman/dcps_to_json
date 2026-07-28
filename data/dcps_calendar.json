@@ -2,15 +2,15 @@
   "sources": {
     "DCPS Official": {
       "url": "https://calendar.google.com/calendar/ical/dcpstech%40dc.gov/public/basic.ics",
-      "count": 135
+      "count": 172
     },
     "DCSchools 2026-27": {
       "url": "https://dcschools.com/dcps-calendar-2026-27.ics",
       "count": 29
     }
   },
-  "last_updated": "2026-07-27T10:02:39.643815Z",
-  "count": 47,
+  "last_updated": "2026-07-28T08:45:22.385916Z",
+  "count": 58,
   "days_off": [
     {
       "date": "2026-01-01",
@@ -86,51 +86,63 @@
     },
     {
       "date": "2026-09-07",
-      "name": "Labor Day \u2014 DCPS Closed"
+      "name": "Labor Day: DCPS Closed"
     },
     {
       "date": "2026-10-12",
-      "name": "Indigenous Peoples' Day \u2014 DCPS Closed"
+      "name": "Indigenous Peoples\u2019 Day: DCPS Closed"
     },
     {
       "date": "2026-10-13",
-      "name": "Parent-Teacher Conference \u2014 No School"
+      "name": "Parent-Teacher Conference Day: No school for students"
+    },
+    {
+      "date": "2026-10-30",
+      "name": "Professional Development Day for Staff: No school for students"
+    },
+    {
+      "date": "2026-11-02",
+      "name": "Records/Wellness Day: No school for students"
+    },
+    {
+      "date": "2026-11-03",
+      "name": "Election Day: No school for students and teachers"
     },
     {
       "date": "2026-11-11",
-      "name": "Veterans Day \u2014 DCPS Closed"
+      "name": "Veterans Day: DCPS Closed"
     },
     {
       "date": "2026-11-25",
-      "name": "Thanksgiving Break \u2014 DCPS Closed"
+      "name": "Thanksgiving Break: No school for students and teachers"
     },
     {
       "date": "2026-11-26",
-      "name": "Thanksgiving Break \u2014 DCPS Closed"
+      "name": "Thanksgiving: DCPS Closed"
     },
     {
       "date": "2026-11-27",
-      "name": "Thanksgiving Break \u2014 DCPS Closed"
+      "name": "Thanksgiving Break: No school for students and teachers"
     },
     {
       "date": "2026-12-21",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Professional Development Day for Staff: No school for students"
     },
     {
       "date": "2026-12-22",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Winter Break: No school for students and teachers"
     },
     {
       "date": "2026-12-23",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Winter Break: No school for students and teachers"
     },
     {
       "date": "2026-12-24",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Winter Break: No school for students and teachers"
     },
     {
       "date": "2026-12-25",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Winter Break: No school for students and teachers"
     },
     {
       "date": "2026-12-26",
@@ -142,63 +154,95 @@
     },
     {
       "date": "2026-12-28",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Winter Break: No school for students and teachers"
     },
     {
       "date": "2026-12-29",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Winter Break: No school for students and teachers"
     },
     {
       "date": "2026-12-30",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Winter Break: No school for students and teachers"
     },
     {
       "date": "2026-12-31",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Winter Break: No school for students and teachers"
     },
     {
       "date": "2027-01-01",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "New Year\u2019s Day: DCPS Closed"
     },
     {
       "date": "2027-01-18",
-      "name": "Martin Luther King Jr. Day \u2014 DCPS Closed"
+      "name": "Martin Luther King, Jr. Day: DCPS Closed"
+    },
+    {
+      "date": "2027-01-26",
+      "name": "PD/Records Day for Staff: No school for students"
     },
     {
       "date": "2027-02-11",
-      "name": "Parent-Teacher Conference \u2014 No School"
+      "name": "Parent-Teacher Conference Day: No school for students"
+    },
+    {
+      "date": "2027-02-12",
+      "name": "Professional Development Day for Staff: No school for students"
     },
     {
       "date": "2027-02-15",
-      "name": "Presidents' Day \u2014 DCPS Closed"
+      "name": "Presidents Day: DCPS Closed"
     },
     {
       "date": "2027-03-22",
-      "name": "Spring Break \u2014 DCPS Closed"
+      "name": "Spring Break: No school for students and teachers"
     },
     {
       "date": "2027-03-23",
-      "name": "Spring Break \u2014 DCPS Closed"
+      "name": "Spring Break: No school for students and teachers"
     },
     {
       "date": "2027-03-24",
-      "name": "Spring Break \u2014 DCPS Closed"
+      "name": "Spring Break: No school for students and teachers"
     },
     {
       "date": "2027-03-25",
-      "name": "Spring Break \u2014 DCPS Closed"
+      "name": "Spring Break: No school for students and teachers"
     },
     {
       "date": "2027-03-26",
-      "name": "Spring Break \u2014 DCPS Closed"
+      "name": "Spring Break: No school for students and teachers"
+    },
+    {
+      "date": "2027-04-09",
+      "name": "Records/Wellness Day: No school for students"
+    },
+    {
+      "date": "2027-04-16",
+      "name": "DC Emancipation Day: DCPS Closed"
     },
     {
       "date": "2027-04-17",
       "name": "DC Emancipation Day \u2014 DCPS Closed"
     },
     {
+      "date": "2027-05-14",
+      "name": "Wellness Day: No school for students and teachers"
+    },
+    {
       "date": "2027-05-31",
-      "name": "Memorial Day \u2014 DCPS Closed"
+      "name": "Memorial Day: DCPS Closed"
+    },
+    {
+      "date": "2027-06-18",
+      "name": "Juneteenth (Observed): DCPS Closed"
+    },
+    {
+      "date": "2027-06-21",
+      "name": "PD/Records Day for Staff"
+    },
+    {
+      "date": "2027-07-05",
+      "name": "Independence Day (Observed): DCPS Closed"
     }
   ]
 }
