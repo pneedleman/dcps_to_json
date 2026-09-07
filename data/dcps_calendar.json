@@ -6,11 +6,11 @@
     },
     "DCSchools 2026-27": {
       "url": "https://dcschools.com/dcps-calendar-2026-27.ics",
-      "count": 29
+      "error": "HTTPSConnectionPool(host='dcschools.com', port=443): Max retries exceeded with url: /dcps-calendar-2026-27.ics (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))"
     }
   },
-  "last_updated": "2026-09-06T10:41:15.120685Z",
-  "count": 58,
+  "last_updated": "2026-09-07T12:09:21.117013Z",
+  "count": 55,
   "days_off": [
     {
       "date": "2026-01-01",
@@ -58,7 +58,7 @@
     },
     {
       "date": "2026-04-16",
-      "name": "DC Emancipation Day: No school for students, teachers, and staff"
+      "name": "Spring Break"
     },
     {
       "date": "2026-04-17",
@@ -142,15 +142,7 @@
     },
     {
       "date": "2026-12-25",
-      "name": "Christmas: DCPS Closed"
-    },
-    {
-      "date": "2026-12-26",
-      "name": "Winter Break \u2014 DCPS Closed"
-    },
-    {
-      "date": "2026-12-27",
-      "name": "Winter Break \u2014 DCPS Closed"
+      "name": "Winter Break: No school for students and teachers"
     },
     {
       "date": "2026-12-28",
@@ -219,10 +211,6 @@
     {
       "date": "2027-04-16",
       "name": "DC Emancipation Day: DCPS Closed"
-    },
-    {
-      "date": "2027-04-17",
-      "name": "DC Emancipation Day \u2014 DCPS Closed"
     },
     {
       "date": "2027-05-14",
